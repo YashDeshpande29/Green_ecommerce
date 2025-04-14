@@ -2,7 +2,7 @@ import React from 'react'
 import HeroSection from './HeroSection'
 import ProductGrid from './ProductGrid'
 // import { BACKEND_URL_LINK } from '../routes/url'
-import GeminiChat from './genai/GeminiChat'
+// import GeminiChat from './genai/GeminiChat'
 function Home() {
   // console.log(BACKEND_URL_LINK);
   
@@ -16,7 +16,7 @@ function Home() {
         <h3 className=' font-bold text-4xl'>Why Us?</h3>
         <p className='text-xl'>Pride agro solutions launched with team of researchers .they continuously in organic farming ( fruit crops, vegetables, cotton, sugarcane, banana). Other team research in plant physiology and their response to plant nutrients, PGR, different types of irrigation water and different soil type. Our team to improve quality of agriculture process...</p>
       </div>
-      <GeminiChat/>
+      {/* <GeminiChat/> */}
     </div>
   )
 }
